@@ -34,7 +34,7 @@ Method 2 JitPack dependencies
 ### B.项目/app/build.grade
 ```
 	dependencies {
-	        implementation 'com.github.RelinRan:ImageSelector:1.0.3'
+	        implementation 'com.github.RelinRan:ImageSelector:1.0.4'
 	}
 ```
 
