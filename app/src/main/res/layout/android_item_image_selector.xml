@@ -8,6 +8,6 @@
         android:background="@drawable/android_photo"
         android:gravity="center"
         android:text="相册"
-        android:textColor="@color/colorImageSelectorText"
+        android:textColor="@color/colorImageSelectorMenuText"
         android:textSize="14sp" />
 </LinearLayout>

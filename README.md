@@ -59,16 +59,18 @@ public class XXXApplication extends BaseApplication {
 工具类可以配置颜色，在自己工程颜色加如下颜色就可以了。如果不需要修改颜色使用默认颜色可以忽略。
 Tool class can configure the color, add the following color to your project color. If you do not need to change the color use the default color can be ignored.
 ```
-        <!--背景颜色-->
-        <color name="colorImageSelectorBackground">#FFFFFF</color>
-        <!--分割线颜色-->
-        <color name="colorImageSelectorDivider">#EFEFEF</color>
-        <!--文字颜色-->
-        <color name="colorImageSelectorText">#434444</color>
-        <!--按钮按下颜色-->
-        <color name="colorImageSelectorButtonUnpressed">#FFFFFF</color>
-        <!--按钮正常颜色-->
-        <color name="colorImageSelectorButtonPressed">#F9F9F9</color>
+    <!--背景颜色-->
+    <color name="colorImageSelectorBackground">#FFFFFF</color>
+    <!--分割线颜色-->
+    <color name="colorImageSelectorDivider">#EFEFEF</color>
+    <!--文字颜色-->
+    <color name="colorImageSelectorMenuText">#434444</color>
+    <!--取消文字颜色-->
+    <color name="colorImageSelectorCancelText">#434444</color>
+    <!--按钮按下颜色-->
+    <color name="colorImageSelectorButtonUnpressed">#FFFFFF</color>
+    <!--按钮正常颜色-->
+    <color name="colorImageSelectorButtonPressed">#F9F9F9</color>
 ```
 
 ## Activity使用

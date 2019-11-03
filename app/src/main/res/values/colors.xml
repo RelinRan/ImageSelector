@@ -5,7 +5,9 @@
     <!--分割线颜色-->
     <color name="colorImageSelectorDivider">#EFEFEF</color>
     <!--文字颜色-->
-    <color name="colorImageSelectorText">#434444</color>
+    <color name="colorImageSelectorMenuText">#434444</color>
+    <!--取消文字颜色-->
+    <color name="colorImageSelectorCancelText">#434444</color>
     <!--按钮按下颜色-->
     <color name="colorImageSelectorButtonUnpressed">#FFFFFF</color>
     <!--按钮正常颜色-->

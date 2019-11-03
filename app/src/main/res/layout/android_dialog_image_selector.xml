@@ -23,7 +23,7 @@
         android:background="@drawable/android_image_selector"
         android:gravity="center"
         android:text="取消"
-        android:textColor="#5D5D5D"
+        android:textColor="@color/colorImageSelectorCancelText"
         android:textSize="14sp" />
 
 </LinearLayout>
