@@ -1,6 +1,7 @@
 # ImageSelector
 Android图片原生选择器（Android Image native selector）
-
+# 效果图
+![img](https://github.com/RelinRan/ImageSelector/blob/master/image_selector.png)
 ## 方法一  ARR依赖
 [ImageSelector.arr](https://github.com/RelinRan/ImageSelector/blob/master/ImageSelector.aar)
 Method 1 ARR dependence
