@@ -38,6 +38,7 @@ Method 2 JitPack dependencies
 	}
 ```
 
+
 ## Application配置
 
 ### 继承Application(必须),如果自己有Application就在自己的Application的onCreate()方法里面初始化即可。
