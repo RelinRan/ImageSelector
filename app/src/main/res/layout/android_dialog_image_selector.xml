@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/android_dialog_bg"
-        android:divider="@color/colorDialogDivider"
+        android:divider="@color/colorImageSelectorDivider"
         android:dividerHeight="1dp"></ListView>
 
     <TextView
