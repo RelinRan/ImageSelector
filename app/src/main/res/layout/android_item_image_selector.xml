@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/android_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/android_photo"
+        android:gravity="center"
+        android:text="相册"
+        android:textColor="@color/colorDialogText"
+        android:textSize="14sp" />
+</LinearLayout>

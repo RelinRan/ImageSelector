@@ -1,0 +1,36 @@
+<resources>
+    <!-- 没有覆盖背景的Dialog-->
+    <style name="Android.Theme.Dialog.Transparent.Background" parent="@android:style/Theme.Dialog">
+        <!--边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--半透明 drawable/android_shape_dialog_bg-->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@drawable/android_window_bg</item>
+        <!--模糊-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!-- 有覆盖背景的Dialog-->
+    <style name="Android.Theme.Dialog.Translucent.Background" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!--Dialog放大缩小-->
+    <style name="android_anim_zoom">
+        <item name="android:windowEnterAnimation">@anim/android_anim_zoom_max</item>
+        <item name="android:windowExitAnimation">@anim/android_anim_zoom_min</item>
+    </style>
+    <!--Dialog底部进入动画-->
+    <style name="android_anim_bottom" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/android_anim_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/android_anim_bottom_exit</item>
+    </style>
+</resources>

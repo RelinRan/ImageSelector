@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--背景颜色-->
+    <color name="colorImageSelectorBackground">#FFFFFF</color>
+    <!--分割线颜色-->
+    <color name="colorImageSelectorDivider">#EFEFEF</color>
+    <!--文字颜色-->
+    <color name="colorImageSelectorText">#434444</color>
+    <!--按钮按下颜色-->
+    <color name="colorImageSelectorButtonUnpressed">#FFFFFF</color>
+    <!--按钮正常颜色-->
+    <color name="colorImageSelectorButtonPressed">#F9F9F9</color>
+</resources>
